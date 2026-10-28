@@ -6,7 +6,7 @@ This folder contains ImageJ/Fiji macros for automated image preprocessing, thres
 
 ## Software Requirements
 
-- Fiji/ImageJ
+- Fiji/ImageJ (version 1.54p)
 - Bio-Formats plugin
 - 3D Objects Counter plugin
 
