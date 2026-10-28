@@ -10,6 +10,14 @@ This folder contains ImageJ/Fiji macros for automated image preprocessing, thres
 - Bio-Formats plugin
 - 3D Objects Counter plugin
 
+## Expected Runtime
+The expected runtime depends on the number of images, image dimensions, Z-stack size, and computer specifications.
+Script A (Image Conversion): Approximately 1–5 minutes for 10 images.
+Script B (Image Thresholding): Approximately 1–5 minutes for 10 images.
+Script C (Neutrophil Counting): Approximately 5–15 minutes for 10 images, including manual ROI selection.
+Total estimated runtime: Approximately 7–25 minutes for 10 images on a standard desktop computer.
+These estimates are illustrative and have not been benchmarked. Actual processing times may vary depending on image size, available memory, and user interaction.
+
 ## Scripts
 
 ### 1. A_ConvertImagestoTiff_CW_v3.ijm
